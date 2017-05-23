@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @Component
-@ConfigurationProperties("aws.s3")
-public class CustomPropertyPlaceholder {
+@ConfigurationProperties("bucket1.aws.s3")
+public class FirstBucketPropertyPlaceholder {
 
     private String bucketName;
 

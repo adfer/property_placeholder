@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @Component
-@ConfigurationProperties("bucket1.aws.s3")
-public class FirstBucketPropertyPlaceholder {
+@ConfigurationProperties("bucket2.aws.s3")
+public class SecondBucketPropertyPlaceholder {
 
     private String bucketName;
 
